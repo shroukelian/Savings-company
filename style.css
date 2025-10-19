@@ -12,7 +12,7 @@ body {
     transition: background-color 0.3s ease; 
 }
 
-/* **السطر السحري الجديد لضمان النعومة في الانتقال** */
+/* **السطر السحري لضمان النعومة في الانتقال** */
 html {
     scroll-behavior: smooth;
 }
@@ -869,29 +869,27 @@ footer a:hover {
         .main-nav-wrapper {
         display: flex; 
         flex-direction: column; 
-        width: 100%; 
+        width: 100%;
         position: absolute; 
         top: 95px; 
-        right: 0;
+        right: 0; 
         background-color: #343A40; /* رمادي داكن */
         box-shadow: 0 8px 15px rgba(0,0,0,0.2);
         max-height: 0; 
         overflow: hidden;
         transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
         z-index: 999;
-        padding-bottom: 0;
-        border-radius: 0 0 10px 10px;
-        margin-left: 0; 
-        margin-right: 0;
+        padding-bottom: 0; 
+        border-radius: 0 0 10px 10px; 
     }
 
     .main-nav-wrapper.active {
-        max-height: 500px;
+        max-height: 500px; 
         padding-bottom: 20px;
     }
     
     nav ul {
-        flex-direction: column;
+        flex-direction: column; 
         width: 100%;
         text-align: center;
     }
@@ -903,25 +901,25 @@ footer a:hover {
         margin-right: 0;
     }
     nav ul {
-        flex-direction: column;
+        flex-direction: column; 
         width: 100%;
         text-align: center;
     }
     nav ul li {
         width: 100%;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(255,255,255,0.1); 
     }
     nav ul li:last-child {
         border-bottom: none;
     }
     nav ul li a {
-        padding: 15px 20px;
+        padding: 15px 20px; 
         font-size: 1.1em;
-        border-radius: 0;
+        border-radius: 0; 
     }
     nav ul li a:hover, nav ul li.active a {
         background-color: #DC3545; /* اللون الأحمر */
-        transform: none;
+        transform: none; 
         box-shadow: none;
     }
 
@@ -1223,7 +1221,6 @@ footer a:hover {
         padding: 25px;
     }
     .faq-question {
-        font-size: 1.05em;
         padding: 15px;
     }
     .faq-answer {
@@ -1561,6 +1558,10 @@ footer a:hover {
 }
 .article-content img {
     max-width: 100%;
+    /* تم التعديل هنا: تحديد أقصى ارتفاع لصور المقالات */
+    max-height: 400px; 
+    object-fit: cover;
+    /* ---------------------------------------------------- */
     height: auto;
     border-radius: 10px;
     margin: 25px 0;
