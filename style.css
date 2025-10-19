@@ -9,7 +9,15 @@ body {
     color: #333;
     line-height: 1.7;
     background-color: #f8f9fa; 
+    transition: background-color 0.3s ease; 
 }
+
+/* **السطر السحري الجديد لضمان النعومة في الانتقال** */
+html {
+    scroll-behavior: smooth;
+}
+/* ------------------------------------------- */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,6 +43,8 @@ p { margin-bottom: 20px; }
 a {
     color: #DC3545; /* الأحمر الأساسي للروابط */
     text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease; 
+
 }
 a:hover {
     text-decoration: underline;
@@ -1216,8 +1226,8 @@ footer a:hover {
         font-size: 1.05em;
         padding: 15px;
     }
-    .faq-answer p {
-        font-size: 0.95em;
+    .faq-answer {
+        padding: 0 18px;
     }
     #contact .contact-info, #contact .contact-form {
         padding: 25px;
@@ -1245,6 +1255,10 @@ footer a:hover {
 
     #contact .social-links-contact {
         gap: 12px;
+    }
+
+    .contact-info .social-links-contact {
+        justify-content: center; /* لضمان التوسيط في الشاشات الصغيرة */
     }
 
     #contact .social-links-contact a {
