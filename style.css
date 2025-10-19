@@ -1675,10 +1675,10 @@ footer a:hover {
 }
 
 .phone-btn {
-    background-color: #343A40; /* رمادي داكن (الموثوقية) */
+    background-color: #18a50b; /* رمادي داكن (الموثوقية) */
 }
 
 .phone-btn:hover {
-    background-color: #23272B;
+    background-color: #0c74dc;
 }
 /* End Fixed Contact Buttons Styles */
