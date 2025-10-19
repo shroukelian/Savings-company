@@ -12,7 +12,6 @@ body {
     transition: background-color 0.3s ease; 
 }
 
-/* **السطر السحري لضمان النعومة في الانتقال** */
 html {
     scroll-behavior: smooth;
 }
@@ -24,7 +23,7 @@ html {
     padding: 0 25px;
 }
 h1, h2, h3, h4 {
-    color: #343A40; /* رمادي داكن للعناوين (لون الموثوقية) */
+    color: #343A40; 
     margin-bottom: 25px;
     font-weight: 700;
 }
@@ -41,7 +40,7 @@ p { margin-bottom: 20px; }
     line-height: 1.8;
 }
 a {
-    color: #DC3545; /* الأحمر الأساسي للروابط */
+    color: #DC3545; 
     text-decoration: none;
         transition: color 0.3s ease, text-decoration 0.3s ease; 
 
@@ -52,7 +51,7 @@ a:hover {
 
 /* Header & Navigation */
 header {
-    background-color: #343A40; /* رمادي داكن */
+    background-color: #343A40;
     color: white;
     padding: 15px 0;
     display: flex;
@@ -148,13 +147,13 @@ nav ul li a {
     font-weight: 600;
 }
 nav ul li a:hover, nav ul li.active a {
-    background-color: #DC3545; /* اللون الأحمر عند التمرير */
+    background-color: #DC3545; 
     transform: translateY(-3px); 
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
     text-decoration: none;
 }
 .contact-header .phone-number {
-    background-color: #DC3545; /* اللون الأحمر */
+    background-color: #DC3545; 
     padding: 10px 20px;
     border-radius: 8px;
     color: white;
@@ -165,7 +164,7 @@ nav ul li a:hover, nav ul li.active a {
     white-space: nowrap; 
 }
 .contact-header .phone-number:hover {
-    background-color: #BD2D38; /* أحمر أغمق عند التمرير */
+    background-color: #BD2D38;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
     text-decoration: none;
@@ -176,7 +175,7 @@ nav ul li a:hover, nav ul li.active a {
     padding: 100px 0; 
 }
 .light-bg {
-    background-color: #FFF5F5; /* لون خلفية أحمر/وردي فاتح جداً */
+    background-color: #FFF5F5; 
 }
 
 /* Buttons */
@@ -194,27 +193,27 @@ nav ul li a:hover, nav ul li.active a {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 .btn {
-    background-color: #DC3545; /* اللون الأساسي: أحمر */
+    background-color: #DC3545;
     color: white;
 }
 .btn:hover {
-    background-color: #BD2D38; /* أحمر أغمق */
+    background-color: #BD2D38;
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .btn-secondary {
-    background-color: #343A40; /* اللون الثانوي: رمادي داكن */
+    background-color: #343A40; 
     color: white;
 }
 .btn-secondary:hover {
-    background-color: #23272B; /* رمادي داكن أغمق */
+    background-color: #23272B; 
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .btn-large {
     padding: 18px 35px;
     font-size: 1.3em;
-    background-color: #DC3545; /* أحمر */
+    background-color: #DC3545; 
     color: white;
 }
 .btn-large:hover {
@@ -223,7 +222,7 @@ nav ul li a:hover, nav ul li.active a {
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .btn-submit {
-    background-color: #343A40; /* رمادي داكن */
+    background-color: #343A40;
     color: white;
     width: auto;
     margin-top: 20px;
@@ -282,7 +281,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 #features .feature-item .icon {
     font-size: 3.5em; 
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     margin-bottom: 20px; 
 }
 #features .feature-item h3 {
@@ -295,7 +294,7 @@ nav ul li a:hover, nav ul li.active a {
     color: #666;
 }
 
-/* Services Section - تعديلات جذرية لتصميم البطاقات */
+/* Services Section */
 #services .service-cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
@@ -338,7 +337,7 @@ nav ul li a:hover, nav ul li.active a {
 
 .service-card-content h3 {
     font-size: 1.8em; 
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
     margin-bottom: 15px;
     text-align: center; 
 }
@@ -365,7 +364,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 
 .service-card-content ul li i {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     margin-left: 10px;
     font-size: 1.1em;
     margin-top: 3px;
@@ -407,7 +406,7 @@ nav ul li a:hover, nav ul li.active a {
     font-size: 2.4em; 
     margin-top: 0;
     margin-bottom: 20px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 #about .about-content p {
     font-size: 1.15em;
@@ -433,7 +432,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 .vision-mission-grid .item .icon-large {
     font-size: 3em; 
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     margin-bottom: 20px;
 }
 .vision-mission-grid .item h3 {
@@ -466,7 +465,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 .values-grid .value-item .icon-small {
     font-size: 2.2em; 
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
     margin-bottom: 15px;
 }
 .values-grid .value-item h4 {
@@ -502,11 +501,11 @@ nav ul li a:hover, nav ul li.active a {
 #locations .province-item h3 {
     font-size: 1.6em; 
     margin-bottom: 15px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 #locations .province-item h3 i {
     margin-left: 12px;
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     font-size: 1.3em;
 }
 #locations .province-item p {
@@ -553,7 +552,7 @@ nav ul li a:hover, nav ul li.active a {
 #packing-materials .material-item h3 {
     font-size: 1.8em;
     margin-bottom: 20px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 #packing-materials .material-item ul {
     list-style: none;
@@ -567,14 +566,14 @@ nav ul li a:hover, nav ul li.active a {
     font-size: 1.05em;
 }
 #packing-materials .material-item ul li i {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     margin-left: 12px;
     font-size: 1.1em;
 }
 .discount-offer {
     text-align: center;
     font-size: 1.7em; 
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     font-weight: bold;
     margin-top: 50px;
     text-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -615,17 +614,17 @@ nav ul li a:hover, nav ul li.active a {
 }
 .faq-question:hover {
     background-color: #ebebeb;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 .faq-question i {
     margin-left: 18px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
     font-size: 1.3em;
     transition: transform 0.3s ease;
 }
 .faq-item.active .faq-question i {
     transform: rotate(180deg);
-    color: #DC3545; /* اللون الأحمر عند الفتح */
+    color: #DC3545; 
 }
 .faq-answer {
     max-height: 0;
@@ -660,7 +659,7 @@ nav ul li a:hover, nav ul li.active a {
 #contact .contact-info h3 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 #contact .contact-info p {
     margin-bottom: 18px;
@@ -669,7 +668,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 #contact .contact-info p i {
     margin-left: 12px;
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     font-size: 1.2em;
 }
 #contact .social-links-contact {
@@ -679,11 +678,11 @@ nav ul li a:hover, nav ul li.active a {
 }
 #contact .social-links-contact a {
     font-size: 2em; 
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
     transition: color 0.3s ease, transform 0.2s ease;
 }
 #contact .social-links-contact a:hover {
-    color: #DC3545; /* اللون الأحمر عند التمرير */
+    color: #DC3545; 
     text-decoration: none;
     transform: translateY(-5px);
 }
@@ -696,7 +695,7 @@ nav ul li a:hover, nav ul li.active a {
 #contact .contact-form h3 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40;
 }
 .form-group {
     margin-bottom: 25px; 
@@ -719,7 +718,7 @@ nav ul li a:hover, nav ul li.active a {
 }
 .form-group input:focus, .form-group textarea:focus {
     border-color: #DC3545;
-    box-shadow: 0 0 0 3px rgba(220,53,69,0.25); /* ظل تركيز أحمر */
+    box-shadow: 0 0 0 3px rgba(220,53,69,0.25); 
     outline: none;
 }
 .form-group textarea {
@@ -729,12 +728,12 @@ nav ul li a:hover, nav ul li.active a {
 
 /* Testimonials Section */
 #testimonials {
-    background-color: #FFF5F5; /* لون خلفية القسم: أحمر/وردي فاتح */
+    background-color: #FFF5F5; 
     padding: 100px 0;
     text-align: center;
 }
 #testimonials h2 {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
 }
 .testimonial-slider {
     display: flex;
@@ -773,7 +772,7 @@ nav ul li a:hover, nav ul li.active a {
 
 /* Footer */
 footer {
-    background-color: #343A40; /* رمادي داكن */
+    background-color: #343A40;
     color: white;
     padding: 60px 0 25px 0;
     text-align: right;
@@ -788,7 +787,7 @@ footer p {
     font-size: 1em;
 }
 footer a {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     text-decoration: none;
 }
 footer a:hover {
@@ -813,7 +812,7 @@ footer a:hover {
     transition: color 0.3s ease;
 }
 .footer-col ul li a:hover {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
 }
 .footer-col .social-links {
     margin-top: 25px;
@@ -826,12 +825,12 @@ footer a:hover {
     transition: color 0.3s ease, transform 0.2s ease;
 }
 .footer-col .social-links a:hover {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     transform: translateY(-4px);
 }
 .copyright {
     text-align: center;
-    border-top: 1px solid #495057; /* رمادي أغمق قليلاً */
+    border-top: 1px solid #495057; 
     padding-top: 25px;
     margin-top: 35px;
     font-size: 0.95em;
@@ -873,7 +872,7 @@ footer a:hover {
         position: absolute; 
         top: 95px; 
         right: 0; 
-        background-color: #343A40; /* رمادي داكن */
+        background-color: #343A40;
         box-shadow: 0 8px 15px rgba(0,0,0,0.2);
         max-height: 0; 
         overflow: hidden;
@@ -918,7 +917,7 @@ footer a:hover {
         border-radius: 0; 
     }
     nav ul li a:hover, nav ul li.active a {
-        background-color: #DC3545; /* اللون الأحمر */
+        background-color: #DC3545; 
         transform: none; 
         box-shadow: none;
     }
@@ -1255,7 +1254,7 @@ footer a:hover {
     }
 
     .contact-info .social-links-contact {
-        justify-content: center; /* لضمان التوسيط في الشاشات الصغيرة */
+        justify-content: center; 
     }
 
     #contact .social-links-contact a {
@@ -1318,7 +1317,7 @@ footer a:hover {
         position: absolute; 
         top: 95px; 
         right: 0; 
-        background-color: #343A40; /* رمادي داكن */
+        background-color: #343A40;
         box-shadow: 0 8px 15px rgba(0,0,0,0.2);
         max-height: 0; 
         overflow: hidden;
@@ -1354,7 +1353,7 @@ footer a:hover {
         border-radius: 0; 
     }
     nav ul li a:hover, nav ul li.active a {
-        background-color: #DC3545; /* اللون الأحمر */
+        background-color: #DC3545;
         transform: none; 
         box-shadow: none;
     }
@@ -1387,7 +1386,7 @@ footer a:hover {
 }
 /* Blog Page Specific Styles */
 #blog-header {
-    background-color: #FFF5F5; /* لون أحمر/وردي فاتح */
+    background-color: #FFF5F5;
     padding: 80px 0 40px 0; 
 }
 #blog-header h1 {
@@ -1438,7 +1437,7 @@ footer a:hover {
 }
 .post-date {
     display: block;
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545;
     font-size: 0.9em;
     font-weight: 600;
 }
@@ -1447,13 +1446,13 @@ footer a:hover {
 }
 .read-more-btn {
     display: inline-block;
-    color: #343A40; /* رمادي داكن */
+    color: #343A40; 
     font-weight: 700;
     font-size: 1em;
     transition: color 0.3s ease;
 }
 .read-more-btn:hover {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545;
     text-decoration: none;
 }
 .read-more-btn i {
@@ -1484,7 +1483,7 @@ footer a:hover {
     border-color: #DC3545;
 }
 .pagination .active {
-    background-color: #DC3545; /* اللون الأحمر */
+    background-color: #DC3545;
     color: white;
     border-color: #DC3545;
 }
@@ -1558,7 +1557,6 @@ footer a:hover {
 }
 .article-content img {
     max-width: 100%;
-    /* تم التعديل هنا: تحديد أقصى ارتفاع لصور المقالات */
     max-height: 400px; 
     object-fit: cover;
     /* ---------------------------------------------------- */
@@ -1573,7 +1571,7 @@ footer a:hover {
     padding: 20px;
     background-color: white; 
     border-radius: 8px;
-    border-bottom: 2px solid #DC3545; /* اللون الأحمر */
+    border-bottom: 2px solid #DC3545; 
     position: relative; 
     z-index: 10; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
@@ -1585,7 +1583,7 @@ footer a:hover {
     color: #555;
 }
 .article-meta i {
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545;
     margin-left: 8px;
 }
 .article-list {
@@ -1604,12 +1602,11 @@ footer a:hover {
     content: "\f058"; 
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #DC3545; /* اللون الأحمر */
+    color: #DC3545; 
     position: absolute;
     right: 0;
     font-size: 1.2em;
 }
-/* تنسيقات متجاوبة لصفحة المقال */
 @media (max-width: 768px) {
     .article-content {
         padding: 20px;
@@ -1667,18 +1664,12 @@ footer a:hover {
 }
 
 .whatsapp-btn {
-    background-color: #18a50b; /* اللون الأحمر (العروض) */
+    background-color: #18a50b; 
 }
-
-/* .whatsapp-btn:hover {
-    background-color: #18a50b;
-} */
 
 .phone-btn {
-    background-color: #0c74dc; /* رمادي داكن (الموثوقية) */
+    background-color: #0c74dc; 
 }
 
-/* .phone-btn:hover {
-    background-color: #0c74dc;
-} */
+
 /* End Fixed Contact Buttons Styles */
