@@ -1667,18 +1667,18 @@ footer a:hover {
 }
 
 .whatsapp-btn {
-    background-color: #DC3545; /* اللون الأحمر (العروض) */
+    background-color: #18a50b; /* اللون الأحمر (العروض) */
 }
 
-.whatsapp-btn:hover {
-    background-color: #BD2D38;
-}
+/* .whatsapp-btn:hover {
+    background-color: #18a50b;
+} */
 
 .phone-btn {
-    background-color: #18a50b; /* رمادي داكن (الموثوقية) */
+    background-color: #0c74dc; /* رمادي داكن (الموثوقية) */
 }
 
-.phone-btn:hover {
+/* .phone-btn:hover {
     background-color: #0c74dc;
-}
+} */
 /* End Fixed Contact Buttons Styles */
